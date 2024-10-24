@@ -1,0 +1,89 @@
+html, body {
+  color: black;
+  background-color:  black;
+  margin: 3px;
+  margin-bottom: 30px;
+  font-family: "Rajdhani", serif; 
+
+}
+
+.inicio{
+background: white;
+margin: 20px;
+padding: 1em;
+display: flex;
+font-size: 30px;
+  color: black;
+  border-radius: 50px;
+}
+
+header{
+font-family: "Permanent Marker", serif;
+  color: white;
+  display: flex;
+  position: relative;
+  margin: 20px;
+  padding: 0px;
+  font-size: 40px;
+  border-bottom: solid 2px 
+    white;
+   
+}
+
+p{
+  text-align: justify;
+}
+
+.video{
+  margin-right: 50px;
+  align-items: center;
+}
+ 
+header img{
+  width: 110px;
+  height: 110px;
+  margin-left: 500px
+}
+
+.batata{
+  align-content: center;
+}
+
+h1{
+  font-size: 30px;
+  color: white;
+  border-bottom: solid 3px white;
+}
+
+.clipes{
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+}
+
+.clipes img{
+  height: 200px;
+  opacity: 0.5;
+}
+
+.clipes img:hover{
+  border: solid 4px white;
+  box-shadow: 2px 4px 4px gray;
+}
+
+footer{
+  font-family: "Permanent Marker", serif;
+  color: white;
+  align-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  widh: 100%;
+  height: 2em;
+  padding: 20px;
+  font-size: 1.5rem;
+  display: block;
+  margin: 0 auto;
+  padding-left: 450px;
+  background-color: rgba(2,2,2,0.562);
+}
